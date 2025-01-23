@@ -22,20 +22,11 @@ header, footer {
 .sky {
     transform: translateZ(-30px) scale(4);
 }
-.moon {
-    transform: translateZ(-20px) scale(3);
-}
-.mountains {
-    transform: translateZ(-10px) scale(2);
-}
 .steps {
     border-bottom: 2px solid black;
 }
-.scene {
-    border-top: 2px solid black;
-}
 
-.sky, .moon, .mountains, .steps, .scene {
+.sky, .steps {
     position: absolute;
     height: 100%;
     width: 100vw;
